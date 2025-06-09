@@ -12,7 +12,7 @@ import truck_icon from "../assets/truck_icon.png";
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col font-inter items-center space-y-11">
+    <><div className="flex flex-col font-inter items-center space-y-11">
       <div className="flex items-center justify-between bg-[#004DA3] rounded-[12px] text-center w-[85%] h-auto">
         <img src={line_pattern_left} className="h-[290px] w-[15%] -ml-[100px] mb-[3%]" />
         <div className="flex flex-col text-center w-[50%] gap-y-10">
@@ -21,10 +21,10 @@ const LandingPage = () => {
         </div>
         <img src={line_pattern_right} className="h-[290px] w-[15%] -mr-[100px] -mb-[7%]" />
       </div>
-      <div className="flex flex-col w-full items-center mt-21 pb-[38px] space-y-6">
+      <div className="flex flex-col w-full items-center mt-16 pb-[38px] space-y-8">
         <p className="text-2xl text-[##181D27] font-[500]">Get Started Today</p>
         <div className="flex place-self-center space-x-10">
-          <div className="flex flex-col w-[380px] h-auto border-0 rounded-[5%] items-center py-7 shadow-2xl space-y-5">
+          <div className="flex flex-col w-[380px] h-auto border-0 rounded-xl items-center py-7 shadow-2xl space-y-5">
             <img src={driver_user_icon} className="h-10 border-0 p-2 rounded-md shadow-lg" />
             <p className="font-[600]">Driver Registration</p>
             <p className="text-[12px]">Self registration for independent operators and drivers.</p>
@@ -33,7 +33,7 @@ const LandingPage = () => {
             </Link>
           </div>
 
-          <div className="flex flex-col w-[380px] h-auto border-0 rounded-[5%] items-center py-7 shadow-2xl space-y-5">
+          <div className="flex flex-col w-[380px] h-auto border-0 rounded-xl items-center py-7 shadow-2xl space-y-5">
             <img src={request_truck_pass_icon} className="h-10 border-0 p-2 rounded-md shadow-lg" />
             <p className="font-[600]">Request Truck Pass</p>
             <p className="text-[12px]">Lorem ipsum dolor sit amet consectetur.</p>
@@ -43,7 +43,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center w-full space-y-4 pb-12">
+      <div className="flex flex-col items-center w-full space-y-4">
         <p className="text-[20px] text-[##181D27] font-[600]">How It Works</p>
         <p className="text-[13px]">Our streamlined process makes cross-border transportation simple and secure</p>
 
@@ -71,10 +71,19 @@ const LandingPage = () => {
             <p className="text-[13px] font-[700]">Cross Border</p>
             <p className="text-[11px]">Present your digital pass at border checkpoints for quick and secure crossing.</p>
           </div>
-
         </div>
       </div>
-    </div >
+    </div>
+
+      {/* Footer */}
+
+      <footer className='text-sm text-[#717171] place-self-center pt-12 pb-6 bg-transparent'>
+        © 2025 TruckPass. All rights reserved.
+      </footer>
+
+      {/* Footer */}
+
+    </>
   )
 }
 

@@ -4,15 +4,23 @@ import { ConsentAndAgreementPage } from "../components/ConsentAndAgreementPage"
 
 const Consent = () => {
   return (
-    <div className="flex flex-col bg-[#cde5f8] w-full h-screen">
-      <div className="flex flex-col items-center">
-        <p className="text-[30px]">Cross-Border Transport Registration</p>
-        <p className="text-[15px] -mt-[1%]">Register as a Professional Truck Driver</p>
+    <div className="flex flex-col bg-[#ECF5FF] w-full h-fit items-center pt-12 gap-y-10">
+      <div className="flex  flex-col space-y-2 items-center place-self-center">
+        <h1 className="text-3xl font-semibold">Cross-Border Transport Registration</h1>
+        <p className="text-base">Register as a Professional Truck Driver</p>
       </div>
-      <div className="flex w-[58%] border place-self-center">
+      <div className="flex w-[72%] shadow-lg place-self-center rounded-2xl">
         <Stepper />
         <ConsentAndAgreementPage />
       </div>
+
+      {/* Footer */}
+
+      <footer className='text-sm text-[#717171] place-self-center bg-transparent pb-11'>
+        © 2025 TruckPass. All rights reserved.
+      </footer>
+
+      {/* Footer */}
     </div>
   )
 }

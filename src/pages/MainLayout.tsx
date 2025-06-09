@@ -5,10 +5,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <div className="h-full w-full font-inter">
       <NavBar />
-      {children}
-      <footer className='text-sm text-[#717171] place-self-center pb-5'>
-        © 2025 TruckPass. All rights reserved.
-      </footer>
+      {children} 
     </div>
   )
 }
