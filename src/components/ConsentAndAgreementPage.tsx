@@ -2,8 +2,8 @@ import consent_terms_icon from "../assets/terms_icon.png";
 
 export const ConsentAndAgreementPage = () => {
     return (
-        <div className={`flex flex-col bg-[#FFFFFF] pt-5 pb-9 w-full px-6 rounded-br-2xl rounded-tr-2xl space-y-4 justify-between`}>
-            <div>
+        <div className={`flex flex-col bg-[#FFFFFF] pt-5 pb-9 w-full px-6 rounded-br-2xl rounded-tr-2xl justify-between`}>
+            <div className="space-y-4 ">
                 <h1 className="font-semibold text-[22px]">Consent & Agreement</h1>
                 <p className="text-[15px] font-thin">Please read and agree to the following terms to continue with your registration</p>
 
