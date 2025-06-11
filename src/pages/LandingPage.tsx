@@ -28,7 +28,7 @@ const LandingPage = () => {
             <img src={driver_user_icon} className="h-10 border-0 p-2 rounded-md shadow-lg" />
             <p className="font-[600]">Driver Registration</p>
             <p className="text-[12px]">Self registration for independent operators and drivers.</p>
-            <Link to={'/DriverConsentPage'} className="bg-[#006DE7] w-[90%] text-[10px] font-[200] py-[2%] text-center rounded-[5px] text-[#FFFFFF] no-underline">
+            <Link to={'/DriverRegistrationProcessPage'} className="bg-[#006DE7] w-[90%] text-[10px] font-[200] py-[2%] text-center rounded-[5px] text-[#FFFFFF] no-underline">
               Register as Driver
             </Link>
           </div>

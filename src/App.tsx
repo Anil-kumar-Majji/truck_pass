@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage'
-import Consent from './pages/Consent';
+import DriverRegistrationProcess from './pages/DriverRegistrationProcess';
 import MainLayout from './pages/MainLayout';
 import './styles/main.css';
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Navigate to={'/LandingPage'} replace/>} />
         <Route path={'/LandingPage'} element={<MainLayout> <LandingPage /> </MainLayout>} />
-        <Route path={'/DriverConsentPage'} element={<MainLayout> <Consent /> </MainLayout>} />
+        <Route path={'/DriverRegistrationProcessPage'} element={<MainLayout> <DriverRegistrationProcess /> </MainLayout>} />
       </Routes>
     </BrowserRouter>
   )
